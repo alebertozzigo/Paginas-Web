@@ -1,0 +1,93 @@
+
+
+
+
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  
+  margin:30px;  /*espacio hacia abajo y arriba*/
+}
+.header2 {
+  padding: 30px;
+  text-align: center;
+  
+  margin:30px;  /*espacio hacia abajo y arriba*/
+  height: 250px;
+}
+.header h1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.header p {
+    font-size:25px;
+   
+}
+.image{
+  padding: 0px;
+  text-align: left;
+  margin:0px;  /*espacio hacia abajo y arriba*/
+  float:left;
+  background-size: cover;
+    
+}
+.texto{
+   padding: 10px;
+   text-align: left;
+   margin:7px;  /*espacio hacia abajo y arriba*/
+    float:left;
+    background-size: cover;
+}
+
+/*boton de send*/
+.boton{
+  padding: 10px;
+    color: #fff;
+    background: #0098cb;
+    width: 200px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 #1a75ff;
+    -webkit-text-decoration-color: aliceblue;
+    text-decoration-color: aliceblue;
+}
+    .boton:hover{
+        background-color:skyblue;
+    }
+   
+/*para esconder el pdf*/
+.botonRojo{
+    padding: 10px;
+    color: #fff;
+    background-color:red;
+    width: 200px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 #1a75ff;
+    -webkit-text-decoration-color:red;
+    text-decoration-color: crimson;
+}
+
+.cuadroPDF{
+    float: right;
+    padding-left: 0px;
+    padding-right: 400px;
+    border:none; 
+    
+}
+
+
+
+
+
+
