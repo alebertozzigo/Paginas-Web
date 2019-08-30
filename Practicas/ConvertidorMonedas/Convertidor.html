@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calendario</title>
+<link rel="stylesheet" type="text/css" href="convertidor.css">
+<script type="text/javascript" src="convertidor.js"></script>
+</head>
+
+<body>
+	
+	<center>
+		
+	<div id="divBotones" >
+       
+        <div id="btnlimpiar"><input type="image" id="limpiar" src='Imagenes/limpiar.png' onclick="limpiar()"></div>
+        
+        <div id="tituloInicio"><h1>Selecione la moneda </h1></div>
+        
+        <div id="btnconvertir"> <input type="image" id="limpiar" src='Imagenes/convertir.png' onclick="convertir()"></div>
+        
+	</div>
+	
+    </center>
+	
+    <div id="tablaInputs">
+       <table border="1" style="margin: 0 ;">
+           <tr >
+               <td><input oninput="bloquear('aleT')" type="number" id="aleT" min="0"  > </td>
+               <td><input oninput="bloquear('argT')" type="number" id="argT" min="0" enabled=false > </td>
+               <td><input oninput="bloquear('espT')" type="number" id="espT" min="0"> </td>
+               <td><input oninput="bloquear('coloT')" type="number" id="coloT" min="0"> </td>
+               <td><input oninput="bloquear('costaT')" type="number" id="costaT" min="0"> </td>
+               <td><input oninput="bloquear('ausT')" type="number" id="ausT" min="0"> </td>
+               <td><input oninput="bloquear('usaT')" type="number" id="usaT" min="0"> </td>
+               <td><input oninput="bloquear('franT')" type="number" id="franT" min="0"> </td>
+               <td><input oninput="bloquear('itaT')" type="number" id="itaT" min="0"> </td>
+               <td><input oninput="bloquear('mexT')" type="number" id="mexT" min="0"> </td>
+               
+           </tr>
+       
+       </table>
+    </div>
+    
+   
+    <div style="text-align:center;">
+	    <table border="1" style="margin: 0 ;">
+            <tr>
+                <td> <img onclick="bandera('ale')" src="Imagenes/alemania.png" width="120px" height="100px"  ></td>
+                <td><img onclick="bandera('arg')" src="Imagenes/argentina.png" width="120px" height="100px" ></td>
+                <td><img onclick="bandera('esp')" src="Imagenes/españa.png" width="120px" height="100px" ></td>
+                <td><img onclick="bandera('colo')" src="Imagenes/colombia.png"width="120px" height="100px" ></td>
+                <td><img onclick="bandera('costa')" src="Imagenes/costa_rica.png" width="120px" height="100px" ></td>
+                <td><img onclick="bandera('aus')" src="Imagenes/australia.png" width="120px" height="100px" ></td>
+                <td><img onclick="bandera('usa')" src="Imagenes/estados_unidos.png" width="100px" height="100px" ></td>
+                <td><img onclick="bandera('fran')" src="Imagenes/francia.png" width="120px" height="100px" ></td>
+                <td><img onclick="bandera('ita')" src="Imagenes/italia.png" width="120px" height="100px" ></td>
+                <td><img onclick="bandera('mex')" src="Imagenes/mexico.png" width="120px" height="100px" ></td>
+            </tr>
+            <tr>
+                <td>Alemania</td>
+                <td>Argentina</td>
+                <td>España</td>
+                <td>Colombia</td>
+                <td>Costa Rica</td>
+                <td>Australia</td>
+                <td>USA</td>
+                <td>Francia</td>
+                <td>Italia</td>
+                <td>Mexico</td>
+            </tr>
+            <tr>
+                <td>Euro</td>
+                <td>Peso Argentino</td>
+                <td>Euro</td>
+                <td>Peso Colombiano</td>
+                <td>Colon</td>
+                <td>Dolar Australiano</td>
+                <td>Dolar</td>
+                <td>Euro</td>
+                <td>Euro</td>
+                <td>Peso Mexicano</td>
+            </tr>
+            
+	    </table>
+    </div>
+    <br>
+    <div>
+        <table  style="margin: 0 ;">
+            
+            <tr id="filaEstrellas">
+                 <td id="ale"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="arg"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="esp"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="colo"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="costa"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="aus"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="usa"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="fran"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="ita"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                 <td id="mex"><img src= 'Imagenes/estrellaClara.png' width=120px height=100px></td>
+                                  
+            </tr>
+        </table>    
+    </div>
+    <br>
+    <br>
+     
+    
+    
+    
+
+</body>
+</html>
