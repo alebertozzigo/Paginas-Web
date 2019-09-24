@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Pagina Ecobloques </title>
+
+    <!-- Bootstrap 4 -->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Fontawesome -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+	integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+	<!-- Hoja de Estilos-->
+
+	<link rel="stylesheet" href="main.css">
+
+	<!-- Animate Css -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+</head>
+<body>
+
+    <div class="d-flex toggled" id="wrapper">
+        <div class="text-light bg-dark border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading text-center"><h1>Secciones</h1></div>
+            <div class="list-group list-group-flush">
+                <br>
+                <a data-target="#carousel1" data-slide-to="0" class="list-group-item list-group-item-action bg-dark">Introducción</a>
+                <a data-target="#carousel1" data-slide-to="1"class="list-group-item list-group-item-action bg-dark">¿Qué es un Ecobloque?</a>
+                <a data-target="#carousel1" data-slide-to="2"class="list-group-item list-group-item-action bg-dark">¿Qué debe contener un Ecobloque?</a>
+                <a data-target="#carousel1" data-slide-to="3" class="list-group-item list-group-item-action bg-dark">Elaboración</a>
+                <a data-target="#carousel1" data-slide-to="4" class="list-group-item list-group-item-action bg-dark">¿Cómo saber que está bien construido?</a>
+                <a data-target="#carousel1" data-slide-to="5" class="list-group-item list-group-item-action bg-dark">Centros de Acopio en el País</a>
+                <a data-target="#carousel1" data-slide-to="6" class="list-group-item list-group-item-action bg-dark">Proyectos en el País</a>
+                <a data-target="#carousel1" data-slide-to="7" class="list-group-item list-group-item-action bg-dark">Equipo Creador</a>
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner bg-info" role="listbox">
+                            <div class="carousel-item active" id="car1">
+                                <div class="d-flex align-items-center justify-content-center min-vh-100">
+                                    <h1 class="display-1">Nota Introductoria</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item" id="car2">
+                                <div class="d-flex align-items-center justify-content-center min-vh-100">
+                                    <h1 class="display-1">¿Qué es un ecobloque?</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item" id="car3">
+                                <div class="d-flex align-items-center justify-content-center min-vh-100">
+                                    <h1 class="display-1">¿Qué debe contener un Ecobloque?</h1>
+                                </div>
+                            </div>
+							<div class="carousel-item" id="car4">
+                                <div class="d-flex align-items-center justify-content-center min-vh-100">
+                                    <h1 class="display-1">Elaboración</h1>
+                                </div>
+                            </div>
+							<div class="carousel-item" id="car5">
+                                <div class="d-flex align-items-center justify-content-center min-vh-100">
+                                    <h1 class="display-1">¿Cómo saber que está bien construido?</h1>
+                                </div>
+                            </div>
+							<div class="carousel-item" id="car6">
+                                <div class="d-flex align-items-center justify-content-center min-vh-100">
+                                    <h1 class="display-1">Centros de Acopio en el País</h1>
+                                   
+                                   
+                                   <div id="map" ></div>
+                                    <!--<script src="script.js"></script>-->
+                                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCARrFdAapixJeQMZlwTHQKnF1hq5M99Pk&callback=iniciarMap"></script>
+                                </div>
+                                
+                            </div>
+							<div class="carousel-item" id="car7">
+                                <div class="d-flex align-items-center justify-content-center min-vh-100">
+                                    <h1 class="display-1">Proyectos en el País</h1>
+                                </div>
+                            </div>
+							<div class="carousel-item" id="car8">
+								<div class="d-flex align-items-center justify-content-center min-vh-100">
+									<div class="container">
+										<div class="row">
+											<div class="col-lg-4 my-2 my-auto">
+												<h1 class="display-4">Proyectos en el País</h1>
+											</div>
+											<div class="col-lg-8">
+												<div class="jumbotron">
+												  <h1 class="display-4">Hello, world!</h1>
+												  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+												  <hr class="my-4">
+												  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+												  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                        <a class="carousel-control-prev" id="menu-toggle" role="button"
+                            data-slide="prev">
+                            <span id="icon" class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        /*window.onload = function (e) {
+            e.preventDefault();
+            toggleSideBar();
+        };*/
+        
+window.onload = function() {
+    iniciarMap();
+}
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            toggleSideBar();
+        });
+
+        function toggleSideBar() {
+            $("#wrapper").toggleClass("toggled");
+            if ( document.getElementById("icon").classList.contains('carousel-control-next-icon') ) {
+                document.getElementById("icon").classList.add('carousel-control-prev-icon');
+                document.getElementById("icon").classList.remove('carousel-control-next-icon');
+            }
+            else {
+                document.getElementById("icon").classList.add('carousel-control-next-icon');
+                document.getElementById("icon").classList.remove('carousel-control-prev-icon');
+            }
+        }
+        function iniciarMap(){
+    var coord = {lat:9.7489166 ,lng: -83.7534256}; //cordenadas de Costa Rica
+    var coord1 = {lat:10.3242185,lng:-84.4313478};//ciudad quesada
+    var coord2 = {lat:10.0843362,lng:-84.1118458};//san jose de la montana
+    var coord3 = {lat:10.007124, lng:-84.1318386 };//mercedes norte
+    var coord4 = {lat: 9.5186381, lng: -84.3305394 }; //parrita
+    var coord5 = {lat:9.8642362 , lng: -83.926991}; //biblioteca cartago
+    var coord6 = {lat: 9.9370425, lng:-84.0505754 };//ucr
+    
+    var map = new google.maps.Map(document.getElementById('map'),{
+      zoom: 8,
+      center: coord
+    });
+    var marker = new google.maps.Marker({
+      position: coord1,
+      map: map
+    });
+    var marker = new google.maps.Marker({
+      position: coord2,
+      map: map
+    });
+    var marker = new google.maps.Marker({
+      position: coord3,
+      map: map
+    });
+    var marker = new google.maps.Marker({
+      position: coord4,
+      map: map
+    });
+    var marker = new google.maps.Marker({
+      position: coord5,
+      map: map
+    });
+    var marker = new google.maps.Marker({
+      position: coord6,
+      map: map
+    });
+}
+        
+
+
+
+    </script>
+
+</body>
+</html>
